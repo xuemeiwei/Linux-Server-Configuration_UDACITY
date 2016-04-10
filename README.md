@@ -133,6 +133,7 @@ Configure the Uncomplicated Firewall (UFW) to only allow incoming connections fo
 9. Install pip `sudo apt-get install python-pip`
 10. Install psycopg2 `sudo apt-get -qqy install postgresql python-psycopg2`
 11. Create database schema `sudo python database_setup.py`
+12. Authorize `http://52.33.81.20` in Google API Console
 
 ## Configure and Enable a New Virtual Host
 1. Create FlaskApp.conf to edit: `sudo nano /etc/apache2/sites-available/FlaskApp.conf`
